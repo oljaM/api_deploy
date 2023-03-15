@@ -1,5 +1,5 @@
 # Image
-FROM python:3.8.6-buster
+FROM --platform=linux/x86_64 python:3.8.12-buster
 
 COPY backend_repo/api_folder /api_folder
 COPY backend_repo/requirements.txt /requirements.txt
